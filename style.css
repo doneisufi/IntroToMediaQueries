@@ -27,6 +27,11 @@ ul {
   font-family: "Source Sans Pro", sans-serif;
 }
 
+.litems a {
+  text-decoration: none;
+  color: rgb(211, 211, 211);
+}
+
 /* Navbar */
 
 /* whitesec */
@@ -253,4 +258,52 @@ span {
   padding-right: 25px;
   padding-bottom: 55px;
   font-size: 0.75em;
+}
+
+@media screen and (max-width: 768px) {
+  .litems {
+    display: none;
+  }
+
+  .icon {
+    padding-left: 250px;
+  }
+
+  .whitesecinfo {
+    text-align: center;
+  }
+
+  .ipadsection {
+    background-image: url(/images/hero_ipad_pro_non_avail__fcrsmhs4b7ma_small.jpg)
+  }
+
+  .ipadsection h2, .iphonesection h2 {
+    font-size: 46px;
+  }
+
+  .ipadsection h3, .iphonesection h3 {
+    font-size: 22px;
+  }
+
+  .ipadsection div a, .iphonesection div a {
+    font-size: 16px;
+  }
+
+  .iphonesection {
+    background-image: url(/images/iphone_12_updated__jepm2xpxncuy_small.jpg);
+  }
+
+  .iphonesection h4 {
+    text-align: center;
+    font-size: 14px;
+  }
+
+  .multisection {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .divwrapper {
+    min-width: 100%;
+  }
 }
